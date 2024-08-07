@@ -1,27 +1,27 @@
-# Simple Shopping Cart
-## Description:
-A basic shopping cart application where users can add items to the cart, view the cart, and remove items from the cart. This project focuses on the core functionality of a shopping cart.
+# Simple Shopping Cart Application
 
-Files:
+## Description
 
-main.py - Entry point of the application.
-cart.py - Contains the Cart class.
-item.py - Defines the Item class.
-utils.py - Utility functions for the application.
-README.md - Project overview and instructions.
-Conclusion:
-This project provides a foundational understanding of object-oriented programming in Python. Users can further expand the cart functionality by integrating it with a backend or adding more features like discount codes and user authentication.
+This project implements a simple command-line shopping cart application. Users can add items to the cart, view the cart, remove items from the cart, and checkout. The application demonstrates basic object-oriented programming principles in Python.
 
-Project 2: Shopping Cart with Inventory Management
-Description:
-An extended shopping cart application that includes inventory management. Users can add items to the cart only if they are available in the inventory, view the cart, and remove items from the cart.
+## Files
 
-Files:
+1. `main.py` - Entry point for the application, handling user interaction.
+2. `cart.py` - Contains the `Cart` class, which manages the items in the shopping cart.
+3. `item.py` - Defines the `Item` class, representing individual items.
+4. `utils.py` - Contains utility functions used across the application.
+5. `README.md` - Provides an overview of the project, including instructions on how to run it.
 
-main.py - Entry point of the application.
-cart.py - Contains the Cart class.
-item.py - Defines the Item class.
-inventory.py - Manages the inventory of items.
-README.md - Project overview and instructions.
-Conclusion:
-This project builds on the basic shopping cart by adding inventory management
+## How to Run
+
+1. Make sure you have Python installed on your system.
+2. Clone this repository or download the files.
+3. Open a terminal and navigate to the project directory.
+4. Run the application using the command:
+    ```bash
+    python main.py
+    ```
+
+## Conclusion
+
+This simple shopping cart application serves as a foundation for more complex shopping cart systems. It demonstrates basic object-oriented programming principles in Python and can be expanded with additional features such as persistent storage, user authentication, and web integration.
